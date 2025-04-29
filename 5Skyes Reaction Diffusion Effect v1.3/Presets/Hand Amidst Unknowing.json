@@ -1,0 +1,92 @@
+{
+	"meta": {
+		"deploymentTarget": {
+			"branch": "",
+			"name": "Wire",
+			"version": {
+				"major": 7,
+				"minor": 22,
+				"patch": 3
+			}
+		},
+		"saveTarget": {
+			"branch": "",
+			"name": "Wire",
+			"version": {
+				"major": 7,
+				"minor": 22,
+				"patch": 3
+			}
+		}
+	},
+	"preset": {
+		"Hand Amidst Unknowing": {
+			"101": {
+				"type": "float",
+				"value": -0.77011501789093018
+			},
+			"103": {
+				"type": "color",
+				"value": [
+					0.49116668105125427,
+					0.5,
+					0.49000000953674316,
+					1
+				]
+			},
+			"107": {
+				"type": "color",
+				"value": [
+					0.15000000596046448,
+					0.14699999988079071,
+					0.14699999988079071,
+					1
+				]
+			},
+			"120": {
+				"type": "bool",
+				"value": true
+			},
+			"176": {
+				"type": "float",
+				"value": 5.05747079849243164
+			},
+			"39": {
+				"type": "float",
+				"value": 0.96551698446273804
+			},
+			"61": {
+				"type": "float",
+				"value": 1
+			},
+			"62": {
+				"type": "float",
+				"value": 0
+			},
+			"70": {
+				"type": "float",
+				"value": 24.13793182373046875
+			},
+			"76": {
+				"type": "float",
+				"value": 0.98500001430511475
+			},
+			"84": {
+				"type": "integer",
+				"value": 5
+			},
+			"85": {
+				"type": "float",
+				"value": 0.05695400014519691
+			},
+			"90": {
+				"type": "integer",
+				"value": 1
+			},
+			"95": {
+				"type": "float",
+				"value": 0
+			}
+		}
+	}
+}

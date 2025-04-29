@@ -1,0 +1,92 @@
+{
+	"meta": {
+		"deploymentTarget": {
+			"branch": "",
+			"name": "Wire",
+			"version": {
+				"major": 7,
+				"minor": 22,
+				"patch": 3
+			}
+		},
+		"saveTarget": {
+			"branch": "",
+			"name": "Wire",
+			"version": {
+				"major": 7,
+				"minor": 22,
+				"patch": 3
+			}
+		}
+	},
+	"preset": {
+		"Smoke Topo": {
+			"101": {
+				"type": "float",
+				"value": 1
+			},
+			"103": {
+				"type": "color",
+				"value": [
+					0.81176471710205078,
+					0.68620914220809937,
+					0.36862745881080627,
+					1
+				]
+			},
+			"107": {
+				"type": "color",
+				"value": [
+					0,
+					0.31666684150695801,
+					1,
+					1
+				]
+			},
+			"120": {
+				"type": "bool",
+				"value": true
+			},
+			"176": {
+				"type": "float",
+				"value": 0.68965500593185425
+			},
+			"39": {
+				"type": "float",
+				"value": 0.88505697250366211
+			},
+			"61": {
+				"type": "float",
+				"value": 0.10344800353050232
+			},
+			"62": {
+				"type": "float",
+				"value": 0.1264369934797287
+			},
+			"70": {
+				"type": "float",
+				"value": 22.98850631713867188
+			},
+			"76": {
+				"type": "float",
+				"value": 0.65517199039459229
+			},
+			"84": {
+				"type": "integer",
+				"value": 1
+			},
+			"85": {
+				"type": "float",
+				"value": 0.70114898681640625
+			},
+			"90": {
+				"type": "integer",
+				"value": 4
+			},
+			"95": {
+				"type": "float",
+				"value": 0.63218402862548828
+			}
+		}
+	}
+}
