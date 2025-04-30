@@ -58,26 +58,6 @@
 			},
 			{
 				"from": [
-					85,
-					"output"
-				],
-				"to": [
-					56,
-					"strength"
-				]
-			},
-			{
-				"from": [
-					84,
-					"output"
-				],
-				"to": [
-					56,
-					"distance"
-				]
-			},
-			{
-				"from": [
 					90,
 					"output"
 				],
@@ -308,16 +288,6 @@
 			},
 			{
 				"from": [
-					66,
-					"output"
-				],
-				"to": [
-					56,
-					"input"
-				]
-			},
-			{
-				"from": [
 					61,
 					"output"
 				],
@@ -404,16 +374,6 @@
 				"to": [
 					34,
 					"distance"
-				]
-			},
-			{
-				"from": [
-					56,
-					"output"
-				],
-				"to": [
-					123,
-					"input0"
 				]
 			},
 			{
@@ -738,42 +698,12 @@
 			},
 			{
 				"from": [
-					175,
-					"output0"
-				],
-				"to": [
-					249,
-					"input0"
-				]
-			},
-			{
-				"from": [
-					249,
-					"output0"
-				],
-				"to": [
-					66,
-					"opacity2"
-				]
-			},
-			{
-				"from": [
 					235,
 					"output0"
 				],
 				"to": [
 					6,
 					"input2"
-				]
-			},
-			{
-				"from": [
-					123,
-					"output0"
-				],
-				"to": [
-					253,
-					"input0"
 				]
 			},
 			{
@@ -874,16 +804,6 @@
 				"to": [
 					260,
 					"input0"
-				]
-			},
-			{
-				"from": [
-					260,
-					"output0"
-				],
-				"to": [
-					66,
-					"input2"
 				]
 			},
 			{
@@ -998,16 +918,6 @@
 			},
 			{
 				"from": [
-					267,
-					"output0"
-				],
-				"to": [
-					66,
-					"input1"
-				]
-			},
-			{
-				"from": [
 					265,
 					"output0"
 				],
@@ -1068,16 +978,6 @@
 			},
 			{
 				"from": [
-					123,
-					"output0"
-				],
-				"to": [
-					273,
-					"input0"
-				]
-			},
-			{
-				"from": [
 					273,
 					"output0"
 				],
@@ -1134,26 +1034,6 @@
 				"to": [
 					215,
 					"input"
-				]
-			},
-			{
-				"from": [
-					256,
-					"output0"
-				],
-				"to": [
-					303,
-					"input0"
-				]
-			},
-			{
-				"from": [
-					303,
-					"output0"
-				],
-				"to": [
-					66,
-					"input3"
 				]
 			},
 			{
@@ -1315,6 +1195,146 @@
 					234,
 					"input0"
 				]
+			},
+			{
+				"from": [
+					351,
+					"output"
+				],
+				"to": [
+					348,
+					"strength"
+				]
+			},
+			{
+				"from": [
+					350,
+					"output"
+				],
+				"to": [
+					348,
+					"distance"
+				]
+			},
+			{
+				"from": [
+					349,
+					"output"
+				],
+				"to": [
+					348,
+					"input"
+				]
+			},
+			{
+				"from": [
+					355,
+					"output0"
+				],
+				"to": [
+					349,
+					"opacity2"
+				]
+			},
+			{
+				"from": [
+					358,
+					"output0"
+				],
+				"to": [
+					359,
+					"input2"
+				]
+			},
+			{
+				"from": [
+					348,
+					"output"
+				],
+				"to": [
+					359,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					359,
+					"output"
+				],
+				"to": [
+					352,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					260,
+					"output0"
+				],
+				"to": [
+					349,
+					"input2"
+				]
+			},
+			{
+				"from": [
+					175,
+					"output0"
+				],
+				"to": [
+					355,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					267,
+					"output0"
+				],
+				"to": [
+					349,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					352,
+					"output0"
+				],
+				"to": [
+					253,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					352,
+					"output0"
+				],
+				"to": [
+					273,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					360,
+					"output0"
+				],
+				"to": [
+					358,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					256,
+					"output0"
+				],
+				"to": [
+					360,
+					"input0"
+				]
 			}
 		],
 		"inputOrder": {
@@ -1324,8 +1344,6 @@
 						39,
 						70,
 						90,
-						85,
-						84,
 						315
 					],
 					"collapsed": false,
@@ -1404,6 +1422,12 @@
 				},
 				{
 					"node": 322
+				},
+				{
+					"node": 351
+				},
+				{
+					"node": 350
 				}
 			]
 		},
@@ -1452,7 +1476,7 @@
 			"url": "https:\/\/github.com\/5skyes",
 			"vendor": ""
 		},
-		"nextNodeId": 323,
+		"nextNodeId": 361,
 		"nodes": {
 			"101": {
 				"attributes": {
@@ -2476,56 +2500,6 @@
 				"name": "Video Mixer",
 				"thumbnail_visible": true
 			},
-			"123": {
-				"attributes": {
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"input0-type": {
-						"type": "type",
-						"value": "texture2d"
-					},
-					"instances": {
-						"type": "integer",
-						"value": 1
-					},
-					"interpolation": {
-						"type": "integer",
-						"value": 1
-					}
-				},
-				"bounds": {
-					"height": 58,
-					"width": 195,
-					"x": 3862.528564453125,
-					"y": 500.558441162109375
-				},
-				"class": {
-					"id": "77697265-4BEE-483F-9F28-1BA5F21193DB",
-					"version": 4
-				},
-				"clock": "video",
-				"color": "ffd0c117",
-				"constants": {
-					"input0": {
-						"type": "texture2d",
-						"value": null
-					},
-					"reset": {
-						"type": "trigger",
-						"value": null
-					}
-				},
-				"hidden": [
-					"interpolation",
-					"input0-type",
-					"flow",
-					"instances"
-				],
-				"name": "Delay",
-				"thumbnail_visible": true
-			},
 			"14": {
 				"attributes": {
 					"instances": {
@@ -2987,47 +2961,6 @@
 					"width": 726.798828125,
 					"x": 897.5855712890625,
 					"y": 687.93109130859375
-				},
-				"class": {
-					"id": "77697265-3C1D-467D-A722-0FC566538374",
-					"version": 1
-				},
-				"clock": "video",
-				"color": "ffd0c117",
-				"constants": {},
-				"hidden": [
-					"text",
-					"alignment",
-					"font-size",
-					"fill"
-				],
-				"name": "Group",
-				"thumbnail_visible": true
-			},
-			"172": {
-				"attributes": {
-					"alignment": {
-						"type": "integer",
-						"value": 0
-					},
-					"fill": {
-						"type": "bool",
-						"value": false
-					},
-					"font-size": {
-						"type": "float",
-						"value": 19
-					},
-					"text": {
-						"type": "string",
-						"value": "Edge Formation"
-					}
-				},
-				"bounds": {
-					"height": 397.65008544921875,
-					"width": 420.78857421875,
-					"x": 3362.8466796875,
-					"y": 443.381439208984375
 				},
 				"class": {
 					"id": "77697265-3C1D-467D-A722-0FC566538374",
@@ -5027,47 +4960,6 @@
 				"name": "FEEDBACK",
 				"thumbnail_visible": true
 			},
-			"236": {
-				"attributes": {
-					"alignment": {
-						"type": "integer",
-						"value": 0
-					},
-					"fill": {
-						"type": "bool",
-						"value": false
-					},
-					"font-size": {
-						"type": "float",
-						"value": 19
-					},
-					"text": {
-						"type": "string",
-						"value": "Mix Sources"
-					}
-				},
-				"bounds": {
-					"height": 399.120941162109375,
-					"width": 255,
-					"x": 3046.30078125,
-					"y": 442.515167236328125
-				},
-				"class": {
-					"id": "77697265-3C1D-467D-A722-0FC566538374",
-					"version": 1
-				},
-				"clock": "video",
-				"color": "ffd0c117",
-				"constants": {},
-				"hidden": [
-					"text",
-					"alignment",
-					"font-size",
-					"fill"
-				],
-				"name": "Group",
-				"thumbnail_visible": true
-			},
 			"237": {
 				"attributes": {
 					"alignment": {
@@ -5517,47 +5409,6 @@
 					"input0-dimensions"
 				],
 				"name": "CLEAN IN",
-				"thumbnail_visible": true
-			},
-			"249": {
-				"attributes": {
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"input0-dimensions": {
-						"type": "integer",
-						"value": 1
-					},
-					"input0-type": {
-						"type": "type",
-						"value": "float"
-					}
-				},
-				"bounds": {
-					"height": 30,
-					"width": 195,
-					"x": 3077.23046875,
-					"y": 550.6788330078125
-				},
-				"class": {
-					"id": "77697265-AEE3-4B9D-BBD5-6Ae4CCD5aB30",
-					"version": 2
-				},
-				"clock": "video",
-				"color": "ffae7bff",
-				"constants": {
-					"input0": {
-						"type": "float",
-						"value": 0
-					}
-				},
-				"hidden": [
-					"input0-type",
-					"flow",
-					"input0-dimensions"
-				],
-				"name": "RGB SHIFT",
 				"thumbnail_visible": true
 			},
 			"253": {
@@ -7111,88 +6962,6 @@
 				"name": "Comment",
 				"thumbnail_visible": true
 			},
-			"296": {
-				"attributes": {
-					"alignment": {
-						"type": "integer",
-						"value": 1
-					},
-					"fill": {
-						"type": "bool",
-						"value": true
-					},
-					"font-size": {
-						"type": "float",
-						"value": 50
-					},
-					"text": {
-						"type": "string",
-						"value": "Alpha Over > Sharpen  > Delay for loop"
-					}
-				},
-				"bounds": {
-					"height": 60.1516571044921875,
-					"width": 1048.102294921875,
-					"x": 3046.156982421875,
-					"y": 373.75439453125
-				},
-				"class": {
-					"id": "77697265-3C1D-467D-A722-0FC566538374",
-					"version": 1
-				},
-				"clock": "video",
-				"color": "ffd0c117",
-				"constants": {},
-				"hidden": [
-					"text",
-					"alignment",
-					"font-size",
-					"fill"
-				],
-				"name": "Comment",
-				"thumbnail_visible": true
-			},
-			"297": {
-				"attributes": {
-					"alignment": {
-						"type": "integer",
-						"value": 0
-					},
-					"fill": {
-						"type": "bool",
-						"value": false
-					},
-					"font-size": {
-						"type": "float",
-						"value": 19
-					},
-					"text": {
-						"type": "string",
-						"value": "Primary Delay"
-					}
-				},
-				"bounds": {
-					"height": 399.1385498046875,
-					"width": 255,
-					"x": 3837.505615234375,
-					"y": 443.099700927734375
-				},
-				"class": {
-					"id": "77697265-3C1D-467D-A722-0FC566538374",
-					"version": 1
-				},
-				"clock": "video",
-				"color": "ffd0c117",
-				"constants": {},
-				"hidden": [
-					"text",
-					"alignment",
-					"font-size",
-					"fill"
-				],
-				"name": "Group",
-				"thumbnail_visible": true
-			},
 			"298": {
 				"attributes": {
 					"alignment": {
@@ -7273,47 +7042,6 @@
 					"fill"
 				],
 				"name": "Group",
-				"thumbnail_visible": true
-			},
-			"303": {
-				"attributes": {
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"input0-dimensions": {
-						"type": "integer",
-						"value": 1
-					},
-					"input0-type": {
-						"type": "type",
-						"value": "texture2d"
-					}
-				},
-				"bounds": {
-					"height": 30,
-					"width": 195,
-					"x": 3076.69091796875,
-					"y": 499.810302734375
-				},
-				"class": {
-					"id": "77697265-AEE3-4B9D-BBD5-6Ae4CCD5aB30",
-					"version": 2
-				},
-				"clock": "video",
-				"color": "fff26eb5",
-				"constants": {
-					"input0": {
-						"type": "texture2d",
-						"value": null
-					}
-				},
-				"hidden": [
-					"input0-type",
-					"flow",
-					"input0-dimensions"
-				],
-				"name": "CLEAN KEY IN",
 				"thumbnail_visible": true
 			},
 			"304": {
@@ -8178,7 +7906,7 @@
 				"constants": {
 					"input": {
 						"type": "string",
-						"value": "Wow!"
+						"value": "That was a good version of minecraft... 1.6.4 goat tho"
 					}
 				},
 				"hidden": [
@@ -8187,7 +7915,7 @@
 					"options-count",
 					"widget"
 				],
-				"name": "VERSION 1. 5",
+				"name": "VERSION 1.5.2",
 				"thumbnail_visible": true
 			},
 			"34": {
@@ -8251,6 +7979,710 @@
 					"instances"
 				],
 				"name": "Pixel Blur",
+				"thumbnail_visible": true
+			},
+			"348": {
+				"attributes": {
+					"instances": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82.8718109130859375,
+					"width": 195,
+					"x": 3558.1201171875,
+					"y": 450.05615234375
+				},
+				"class": {
+					"id": "77697265-EEDF-4363-87C6-9067955F3112",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"distance": {
+						"type": "integer",
+						"value": 3
+					},
+					"input": {
+						"type": "texture2d",
+						"value": null
+					},
+					"strength": {
+						"type": "float",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"bypass",
+					"instances"
+				],
+				"name": "Sharpen",
+				"thumbnail_visible": true
+			},
+			"349": {
+				"attributes": {
+					"bitdepth": {
+						"type": "integer",
+						"value": 0
+					},
+					"input-count": {
+						"type": "integer",
+						"value": 3
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"resolution-absolute": {
+						"type": "float2",
+						"value": [
+							1920,
+							1080
+						]
+					},
+					"resolution-mode": {
+						"type": "integer",
+						"value": 0
+					},
+					"resolution-relative": {
+						"type": "float2",
+						"value": [
+							1,
+							1
+						]
+					}
+				},
+				"bounds": {
+					"height": 107.16182708740234375,
+					"width": 195,
+					"x": 3075.7470703125,
+					"y": 532.41143798828125
+				},
+				"class": {
+					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"input1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input3": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 11
+					},
+					"opacity1": {
+						"type": "float",
+						"value": 1
+					},
+					"opacity2": {
+						"type": "float",
+						"value": 0
+					},
+					"opacity3": {
+						"type": "float",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"bypass",
+					"input-count",
+					"mode",
+					"resolution-mode",
+					"resolution-relative",
+					"resolution-absolute",
+					"bitdepth",
+					"opacity1",
+					"input3",
+					"opacity3",
+					"instances"
+				],
+				"name": "Video Mixer",
+				"thumbnail_visible": true
+			},
+			"350": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"max": {
+						"type": "integer",
+						"value": 25
+					},
+					"min": {
+						"type": "integer",
+						"value": 1
+					},
+					"options-count": {
+						"type": "integer",
+						"value": 0
+					},
+					"unit": {
+						"type": "integer",
+						"value": 7
+					},
+					"widget": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 3392.60107421875,
+					"y": 533.41705322265625
+				},
+				"class": {
+					"id": "77697265-2649-4abb-b38f-4e1005183415",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {
+					"input": {
+						"type": "integer",
+						"value": 7
+					}
+				},
+				"hidden": [
+					"instances",
+					"flow",
+					"has-min",
+					"min",
+					"has-max",
+					"max",
+					"options-count",
+					"widget",
+					"unit"
+				],
+				"name": "Sharp Dist.",
+				"thumbnail_visible": true
+			},
+			"351": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"max": {
+						"type": "float",
+						"value": 1
+					},
+					"min": {
+						"type": "float",
+						"value": 0
+					},
+					"options-count": {
+						"type": "integer",
+						"value": 0
+					},
+					"unit": {
+						"type": "integer",
+						"value": 0
+					},
+					"widget": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 3392.33154296875,
+					"y": 449.879150390625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.45679000020027161
+					}
+				},
+				"hidden": [
+					"instances",
+					"flow",
+					"has-min",
+					"min",
+					"has-max",
+					"max",
+					"options-count",
+					"widget",
+					"unit"
+				],
+				"name": "Sharp Str.",
+				"thumbnail_visible": true
+			},
+			"352": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"interpolation": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 58.58179855346679688,
+					"width": 195,
+					"x": 3862.013427734375,
+					"y": 566.386474609375
+				},
+				"class": {
+					"id": "77697265-4BEE-483F-9F28-1BA5F21193DB",
+					"version": 4
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {
+					"input0": {
+						"type": "texture2d",
+						"value": null
+					},
+					"reset": {
+						"type": "trigger",
+						"value": null
+					}
+				},
+				"hidden": [
+					"interpolation",
+					"input0-type",
+					"flow",
+					"instances"
+				],
+				"name": "Delay",
+				"thumbnail_visible": true
+			},
+			"353": {
+				"attributes": {
+					"alignment": {
+						"type": "integer",
+						"value": 0
+					},
+					"fill": {
+						"type": "bool",
+						"value": false
+					},
+					"font-size": {
+						"type": "float",
+						"value": 19
+					},
+					"text": {
+						"type": "string",
+						"value": "Edge Formation"
+					}
+				},
+				"bounds": {
+					"height": 397.65008544921875,
+					"width": 420.78857421875,
+					"x": 3362.33154296875,
+					"y": 351.8873291015625
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [
+					"text",
+					"alignment",
+					"font-size",
+					"fill"
+				],
+				"name": "Group",
+				"thumbnail_visible": true
+			},
+			"354": {
+				"attributes": {
+					"alignment": {
+						"type": "integer",
+						"value": 0
+					},
+					"fill": {
+						"type": "bool",
+						"value": false
+					},
+					"font-size": {
+						"type": "float",
+						"value": 19
+					},
+					"text": {
+						"type": "string",
+						"value": "Mix Sources"
+					}
+				},
+				"bounds": {
+					"height": 399.120941162109375,
+					"width": 255,
+					"x": 3045.78564453125,
+					"y": 351.02105712890625
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [
+					"text",
+					"alignment",
+					"font-size",
+					"fill"
+				],
+				"name": "Group",
+				"thumbnail_visible": true
+			},
+			"355": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"input0-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "float"
+					}
+				},
+				"bounds": {
+					"height": 30.00531196594238281,
+					"width": 195,
+					"x": 3076.71533203125,
+					"y": 449.914764404296875
+				},
+				"class": {
+					"id": "77697265-AEE3-4B9D-BBD5-6Ae4CCD5aB30",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffae7bff",
+				"constants": {
+					"input0": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"input0-type",
+					"flow",
+					"input0-dimensions"
+				],
+				"name": "RGB SHIFT",
+				"thumbnail_visible": true
+			},
+			"356": {
+				"attributes": {
+					"alignment": {
+						"type": "integer",
+						"value": 1
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "float",
+						"value": 50
+					},
+					"text": {
+						"type": "string",
+						"value": "Alpha Over > Sharpen  > Delay for loop"
+					}
+				},
+				"bounds": {
+					"height": 60.1516571044921875,
+					"width": 1048.102294921875,
+					"x": 3045.641845703125,
+					"y": 282.260284423828125
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [
+					"text",
+					"alignment",
+					"font-size",
+					"fill"
+				],
+				"name": "Comment",
+				"thumbnail_visible": true
+			},
+			"357": {
+				"attributes": {
+					"alignment": {
+						"type": "integer",
+						"value": 0
+					},
+					"fill": {
+						"type": "bool",
+						"value": false
+					},
+					"font-size": {
+						"type": "float",
+						"value": 19
+					},
+					"text": {
+						"type": "string",
+						"value": "Clean Key + Primary Delay"
+					}
+				},
+				"bounds": {
+					"height": 399.1385498046875,
+					"width": 255,
+					"x": 3836.990478515625,
+					"y": 351.6055908203125
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [
+					"text",
+					"alignment",
+					"font-size",
+					"fill"
+				],
+				"name": "Group",
+				"thumbnail_visible": true
+			},
+			"358": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"input0-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "texture2d"
+					}
+				},
+				"bounds": {
+					"height": 30.00531196594238281,
+					"width": 195,
+					"x": 3862.080078125,
+					"y": 406.517303466796875
+				},
+				"class": {
+					"id": "77697265-AEE3-4B9D-BBD5-6Ae4CCD5aB30",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "fff26eb5",
+				"constants": {
+					"input0": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [
+					"input0-type",
+					"flow",
+					"input0-dimensions"
+				],
+				"name": "CLEAN KEY IN",
+				"thumbnail_visible": true
+			},
+			"359": {
+				"attributes": {
+					"bitdepth": {
+						"type": "integer",
+						"value": 0
+					},
+					"input-count": {
+						"type": "integer",
+						"value": 2
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"resolution-absolute": {
+						"type": "float2",
+						"value": [
+							1920,
+							1080
+						]
+					},
+					"resolution-mode": {
+						"type": "integer",
+						"value": 0
+					},
+					"resolution-relative": {
+						"type": "float2",
+						"value": [
+							1,
+							1
+						]
+					}
+				},
+				"bounds": {
+					"height": 82.8718109130859375,
+					"width": 195,
+					"x": 3861.10107421875,
+					"y": 460.867462158203125
+				},
+				"class": {
+					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"input1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 11
+					},
+					"opacity1": {
+						"type": "float",
+						"value": 1
+					},
+					"opacity2": {
+						"type": "float",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"bypass",
+					"input-count",
+					"mode",
+					"resolution-mode",
+					"resolution-relative",
+					"resolution-absolute",
+					"bitdepth",
+					"opacity1",
+					"opacity2",
+					"instances"
+				],
+				"name": "Overlay Clean",
+				"thumbnail_visible": true
+			},
+			"360": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"input0-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "texture2d"
+					}
+				},
+				"bounds": {
+					"height": 30.06067466735839844,
+					"width": 195,
+					"x": 3076.413818359375,
+					"y": 406.517303466796875
+				},
+				"class": {
+					"id": "77697265-AEE3-4B9D-BBD5-6Ae4CCD5aB30",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "fff26eb5",
+				"constants": {
+					"input0": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [
+					"input0-type",
+					"flow",
+					"input0-dimensions"
+				],
+				"name": "CLEAN KEY IN",
 				"thumbnail_visible": true
 			},
 			"38": {
@@ -8469,50 +8901,6 @@
 					"instances"
 				],
 				"name": "Texture Out",
-				"thumbnail_visible": true
-			},
-			"56": {
-				"attributes": {
-					"instances": {
-						"type": "integer",
-						"value": 1
-					}
-				},
-				"bounds": {
-					"height": 82,
-					"width": 195,
-					"x": 3558.63525390625,
-					"y": 500.558441162109375
-				},
-				"class": {
-					"id": "77697265-EEDF-4363-87C6-9067955F3112",
-					"version": 0
-				},
-				"clock": "video",
-				"color": "ffd0c117",
-				"constants": {
-					"bypass": {
-						"type": "bool",
-						"value": false
-					},
-					"distance": {
-						"type": "integer",
-						"value": 3
-					},
-					"input": {
-						"type": "texture2d",
-						"value": null
-					},
-					"strength": {
-						"type": "float",
-						"value": 1
-					}
-				},
-				"hidden": [
-					"bypass",
-					"instances"
-				],
-				"name": "Sharpen",
 				"thumbnail_visible": true
 			},
 			"59": {
@@ -9061,100 +9449,6 @@
 				"name": "Map",
 				"thumbnail_visible": true
 			},
-			"66": {
-				"attributes": {
-					"bitdepth": {
-						"type": "integer",
-						"value": 0
-					},
-					"input-count": {
-						"type": "integer",
-						"value": 3
-					},
-					"instances": {
-						"type": "integer",
-						"value": 1
-					},
-					"resolution-absolute": {
-						"type": "float2",
-						"value": [
-							1920,
-							1080
-						]
-					},
-					"resolution-mode": {
-						"type": "integer",
-						"value": 0
-					},
-					"resolution-relative": {
-						"type": "float2",
-						"value": [
-							1,
-							1
-						]
-					}
-				},
-				"bounds": {
-					"height": 130,
-					"width": 195,
-					"x": 3076.26220703125,
-					"y": 596.2828369140625
-				},
-				"class": {
-					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
-					"version": 3
-				},
-				"clock": "video",
-				"color": "ffd0c117",
-				"constants": {
-					"bypass": {
-						"type": "bool",
-						"value": false
-					},
-					"input1": {
-						"type": "texture2d",
-						"value": null
-					},
-					"input2": {
-						"type": "texture2d",
-						"value": null
-					},
-					"input3": {
-						"type": "texture2d",
-						"value": null
-					},
-					"mode": {
-						"type": "integer",
-						"value": 11
-					},
-					"opacity1": {
-						"type": "float",
-						"value": 1
-					},
-					"opacity2": {
-						"type": "float",
-						"value": 0
-					},
-					"opacity3": {
-						"type": "float",
-						"value": 1
-					}
-				},
-				"hidden": [
-					"bypass",
-					"input-count",
-					"mode",
-					"resolution-mode",
-					"resolution-relative",
-					"resolution-absolute",
-					"bitdepth",
-					"opacity1",
-					"opacity3",
-					"instances"
-				],
-				"name": "Video Mixer",
-				"thumbnail_visible": true
-			},
 			"70": {
 				"attributes": {
 					"flow": {
@@ -9678,148 +9972,6 @@
 				"name": "Map",
 				"thumbnail_visible": true
 			},
-			"84": {
-				"attributes": {
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"has-max": {
-						"type": "bool",
-						"value": true
-					},
-					"has-min": {
-						"type": "bool",
-						"value": true
-					},
-					"instances": {
-						"type": "integer",
-						"value": 1
-					},
-					"max": {
-						"type": "integer",
-						"value": 25
-					},
-					"min": {
-						"type": "integer",
-						"value": 1
-					},
-					"options-count": {
-						"type": "integer",
-						"value": 0
-					},
-					"unit": {
-						"type": "integer",
-						"value": 7
-					},
-					"widget": {
-						"type": "integer",
-						"value": 0
-					}
-				},
-				"bounds": {
-					"height": 82,
-					"width": 130,
-					"x": 3393.1162109375,
-					"y": 583.9193115234375
-				},
-				"class": {
-					"id": "77697265-2649-4abb-b38f-4e1005183415",
-					"version": 2
-				},
-				"clock": "video",
-				"color": "ffd0c117",
-				"constants": {
-					"input": {
-						"type": "integer",
-						"value": 7
-					}
-				},
-				"hidden": [
-					"instances",
-					"flow",
-					"has-min",
-					"min",
-					"has-max",
-					"max",
-					"options-count",
-					"widget",
-					"unit"
-				],
-				"name": "Sharp Dist.",
-				"thumbnail_visible": true
-			},
-			"85": {
-				"attributes": {
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"has-max": {
-						"type": "bool",
-						"value": true
-					},
-					"has-min": {
-						"type": "bool",
-						"value": true
-					},
-					"instances": {
-						"type": "integer",
-						"value": 1
-					},
-					"max": {
-						"type": "float",
-						"value": 1
-					},
-					"min": {
-						"type": "float",
-						"value": 0
-					},
-					"options-count": {
-						"type": "integer",
-						"value": 0
-					},
-					"unit": {
-						"type": "integer",
-						"value": 0
-					},
-					"widget": {
-						"type": "integer",
-						"value": 0
-					}
-				},
-				"bounds": {
-					"height": 82,
-					"width": 130,
-					"x": 3392.8466796875,
-					"y": 500.381439208984375
-				},
-				"class": {
-					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
-					"version": 3
-				},
-				"clock": "video",
-				"color": "ffd0c117",
-				"constants": {
-					"input": {
-						"type": "float",
-						"value": 0.3089430034160614
-					}
-				},
-				"hidden": [
-					"instances",
-					"flow",
-					"has-min",
-					"min",
-					"has-max",
-					"max",
-					"options-count",
-					"widget",
-					"unit"
-				],
-				"name": "Sharp Str.",
-				"thumbnail_visible": true
-			},
 			"90": {
 				"attributes": {
 					"flow": {
@@ -10121,9 +10273,9 @@
 		},
 		"ui": {
 			"camera": {
-				"x": -1534.208740234375,
-				"y": -3048.9814453125,
-				"zoom": 0.19825857877731323
+				"x": -210.17645263671875,
+				"y": -1895.281494140625,
+				"zoom": 0.22400049865245819
 			},
 			"selection": []
 		}

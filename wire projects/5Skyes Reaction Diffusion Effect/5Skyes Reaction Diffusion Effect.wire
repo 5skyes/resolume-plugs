@@ -408,16 +408,6 @@
 			},
 			{
 				"from": [
-					56,
-					"output"
-				],
-				"to": [
-					123,
-					"input0"
-				]
-			},
-			{
-				"from": [
 					14,
 					"output"
 				],
@@ -1118,26 +1108,6 @@
 			},
 			{
 				"from": [
-					256,
-					"output0"
-				],
-				"to": [
-					303,
-					"input0"
-				]
-			},
-			{
-				"from": [
-					303,
-					"output0"
-				],
-				"to": [
-					66,
-					"input3"
-				]
-			},
-			{
-				"from": [
 					305,
 					"output"
 				],
@@ -1213,6 +1183,56 @@
 				],
 				"to": [
 					234,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					303,
+					"output0"
+				],
+				"to": [
+					330,
+					"input2"
+				]
+			},
+			{
+				"from": [
+					56,
+					"output"
+				],
+				"to": [
+					330,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					330,
+					"output"
+				],
+				"to": [
+					123,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					256,
+					"output0"
+				],
+				"to": [
+					331,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					331,
+					"output0"
+				],
+				"to": [
+					303,
 					"input0"
 				]
 			}
@@ -1346,7 +1366,7 @@
 			"url": "https:\/\/github.com\/5skyes",
 			"vendor": ""
 		},
-		"nextNodeId": 330,
+		"nextNodeId": 332,
 		"nodes": {
 			"101": {
 				"attributes": {
@@ -2393,7 +2413,7 @@
 					"height": 58,
 					"width": 195,
 					"x": 3862.528564453125,
-					"y": 500.558441162109375
+					"y": 759.5552978515625
 				},
 				"class": {
 					"id": "77697265-4BEE-483F-9F28-1BA5F21193DB",
@@ -5184,8 +5204,8 @@
 				"bounds": {
 					"height": 30,
 					"width": 195,
-					"x": 3077.23046875,
-					"y": 550.6788330078125
+					"x": 3074.325439453125,
+					"y": 554.417724609375
 				},
 				"class": {
 					"id": "77697265-AEE3-4B9D-BBD5-6Ae4CCD5aB30",
@@ -6733,7 +6753,7 @@
 					},
 					"text": {
 						"type": "string",
-						"value": "Primary Delay"
+						"value": "Clean Key + Primary Delay"
 					}
 				},
 				"bounds": {
@@ -6858,8 +6878,8 @@
 				"bounds": {
 					"height": 30,
 					"width": 195,
-					"x": 3076.69091796875,
-					"y": 499.810302734375
+					"x": 3861.142822265625,
+					"y": 498.861175537109375
 				},
 				"class": {
 					"id": "77697265-AEE3-4B9D-BBD5-6Ae4CCD5aB30",
@@ -7497,7 +7517,134 @@
 					"options-count",
 					"widget"
 				],
-				"name": "VERSION 1.5.1",
+				"name": "VERSION 1.5.2",
+				"thumbnail_visible": true
+			},
+			"330": {
+				"attributes": {
+					"bitdepth": {
+						"type": "integer",
+						"value": 0
+					},
+					"input-count": {
+						"type": "integer",
+						"value": 2
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"resolution-absolute": {
+						"type": "float2",
+						"value": [
+							1920,
+							1080
+						]
+					},
+					"resolution-mode": {
+						"type": "integer",
+						"value": 0
+					},
+					"resolution-relative": {
+						"type": "float2",
+						"value": [
+							1,
+							1
+						]
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 195,
+					"x": 3861.6162109375,
+					"y": 662.23468017578125
+				},
+				"class": {
+					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"input1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 11
+					},
+					"opacity1": {
+						"type": "float",
+						"value": 1
+					},
+					"opacity2": {
+						"type": "float",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"bypass",
+					"input-count",
+					"mode",
+					"resolution-mode",
+					"resolution-relative",
+					"resolution-absolute",
+					"bitdepth",
+					"opacity1",
+					"opacity2",
+					"instances"
+				],
+				"name": "Overlay Clean",
+				"thumbnail_visible": true
+			},
+			"331": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"input0-dimensions": {
+						"type": "integer",
+						"value": 1
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "texture2d"
+					}
+				},
+				"bounds": {
+					"height": 30.5024261474609375,
+					"width": 195,
+					"x": 3073.110107421875,
+					"y": 498.8612060546875
+				},
+				"class": {
+					"id": "77697265-AEE3-4B9D-BBD5-6Ae4CCD5aB30",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "fff26eb5",
+				"constants": {
+					"input0": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [
+					"input0-type",
+					"flow",
+					"input0-dimensions"
+				],
+				"name": "CLEAN KEY IN",
 				"thumbnail_visible": true
 			},
 			"34": {
@@ -7791,8 +7938,8 @@
 				"bounds": {
 					"height": 82,
 					"width": 195,
-					"x": 3558.63525390625,
-					"y": 500.558441162109375
+					"x": 3555.730224609375,
+					"y": 558.6583251953125
 				},
 				"class": {
 					"id": "77697265-EEDF-4363-87C6-9067955F3112",
@@ -8405,10 +8552,10 @@
 					}
 				},
 				"bounds": {
-					"height": 130,
+					"height": 106,
 					"width": 195,
-					"x": 3076.26220703125,
-					"y": 596.2828369140625
+					"x": 3073.357177734375,
+					"y": 600.021728515625
 				},
 				"class": {
 					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
@@ -8459,6 +8606,7 @@
 					"resolution-absolute",
 					"bitdepth",
 					"opacity1",
+					"input3",
 					"opacity3",
 					"instances"
 				],
@@ -9030,8 +9178,8 @@
 				"bounds": {
 					"height": 82,
 					"width": 130,
-					"x": 3393.1162109375,
-					"y": 583.9193115234375
+					"x": 3390.211181640625,
+					"y": 642.0191650390625
 				},
 				"class": {
 					"id": "77697265-2649-4abb-b38f-4e1005183415",
@@ -9101,8 +9249,8 @@
 				"bounds": {
 					"height": 82,
 					"width": 130,
-					"x": 3392.8466796875,
-					"y": 500.381439208984375
+					"x": 3389.941650390625,
+					"y": 558.4813232421875
 				},
 				"class": {
 					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
@@ -9431,11 +9579,13 @@
 		},
 		"ui": {
 			"camera": {
-				"x": -903.6419677734375,
-				"y": -2127.333984375,
-				"zoom": 0.28172698616981506
+				"x": -174.600860595703125,
+				"y": -775.880859375,
+				"zoom": 0.48157316446304321
 			},
-			"selection": []
+			"selection": [
+				"286"
+			]
 		}
 	},
 	"ui": {
