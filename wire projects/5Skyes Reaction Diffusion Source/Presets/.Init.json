@@ -51,18 +51,6 @@
 				"type": "float",
 				"value": 0
 			},
-			"189": {
-				"type": "float",
-				"value": 1
-			},
-			"190": {
-				"type": "float",
-				"value": 0.17886200547218323
-			},
-			"192": {
-				"type": "bool",
-				"value": false
-			},
 			"219": {
 				"type": "float",
 				"value": 0
@@ -78,18 +66,6 @@
 			"223": {
 				"type": "float",
 				"value": 0
-			},
-			"227": {
-				"type": "float",
-				"value": 1
-			},
-			"228": {
-				"type": "float",
-				"value": 0.17886200547218323
-			},
-			"229": {
-				"type": "bool",
-				"value": false
 			},
 			"39": {
 				"type": "float",
