@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Classic Diffusion" uniqueId="7cf5b37c-1b05-461a-8308-5a3908e29390" className="WireGenerator" default="0">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="22" microVersion="7" revision="46617"/>
+	<RenderPass storage="0" name="5SkyesReactionDiffusionEffect" type="DryWetEffect" uniqueTypeId="7cf5b37c-1b05-461a-8308-5a3908e29390" uniqueId="1746033898278" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+			<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+				<PhaseSourceStatic name="PhaseSourceStatic"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="0" max="1"/>
+				<ValueRange name="minMax" min="0" max="1"/>
+				<ValueRange name="startStop" min="0" max="1"/>
+			</ParamRange>
+		</Params>
+		<AnimationSettings name="AnimationSettings" uniqueId="1746033905068"/>
+		<View name="View"/>
+		<RenderPass name="5SkyesReactionDiffusionEffect" type="WireEffect" uniqueTypeId="7cf5b37c-1b05-461a-8308-5a3908e29390" uniqueId="1746033898232" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+				<ParamRange name="Feedback" T="DOUBLE" default="0.93333297967910766602" value="1" key="353">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Blur Size" T="DOUBLE" default="9.3333330154418945312" value="32.417582417582416099" key="360">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="100"/>
+					<ValueRange name="minMax" min="0" max="100"/>
+					<ValueRange name="startStop" min="0" max="100"/>
+				</ParamRange>
+				<ParamRange name="Kuwahara 2" T="DOUBLE" default="0" value="0" key="367">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="25"/>
+					<ValueRange name="minMax" min="0" max="25"/>
+					<ValueRange name="startStop" min="0" max="25"/>
+				</ParamRange>
+				<ParamRange name="Sharp Str." T="DOUBLE" default="0.3456789851188659668" value="1" key="459">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Sharp Dist." T="DOUBLE" default="4" value="5.3516483516483512872" key="458">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="1" max="25"/>
+					<ValueRange name="minMax" min="1" max="25"/>
+					<ValueRange name="startStop" min="1" max="25"/>
+				</ParamRange>
+				<ParamRange name="CLEAN Threshold" T="DOUBLE" default="0.76543200016021728516" value="0.52941176470588235947" key="464">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="C.Th. Smooth" T="DOUBLE" default="0.14814800024032592773" value="0" key="465">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="C.Th. Noise" T="DOUBLE" default="0.21333299577236175537" value="0" key="506">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<Param name="C.Th. Invert" T="BOOL" default="0" value="0" key="466"/>
+				<ParamRange name="DIRTY Threshold" T="DOUBLE" default="0.4320990145206451416" value="0.62087912087912089376" key="469">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="D.Th. Smooth" T="DOUBLE" default="0.40000000596046447754" value="0" key="470">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="D.Th. Noise" T="DOUBLE" default="0" value="0.29411764705882353921" key="497">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<Param name="DIRTY T.H. Invert" T="BOOL" default="0" value="1" key="471"/>
+				<ParamRange name="Scale" T="DOUBLE" default="-0.013333000242710113525" value="0" key="357">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="-1" max="1"/>
+					<ValueRange name="minMax" min="-1" max="1"/>
+					<ValueRange name="startStop" min="-1" max="1"/>
+				</ParamRange>
+				<ParamRange name="Slide X" T="DOUBLE" default="0" value="0" key="368">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="-1" max="1"/>
+					<ValueRange name="minMax" min="-1" max="1"/>
+					<ValueRange name="startStop" min="-1" max="1"/>
+				</ParamRange>
+				<ParamRange name="Slide Y" T="DOUBLE" default="0" value="0.058823529411764718944" key="371">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="-1" max="1"/>
+					<ValueRange name="minMax" min="-1" max="1"/>
+					<ValueRange name="startStop" min="-1" max="1"/>
+				</ParamRange>
+				<ParamRange name="Rot. Speed" T="DOUBLE" default="0" value="0.035294117647058920184" key="358">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="-1" max="1"/>
+					<ValueRange name="minMax" min="-1" max="1"/>
+					<ValueRange name="startStop" min="-1" max="1"/>
+				</ParamRange>
+				<ParamColor name="RGB Shift X" T="COLOR" default="4286545791" value="4285493039" channelmode="0" paletteEnabled="0" color="4285493039" interpolated="0" key="373">
+					<Params name="Channels">
+						<ParamRange name="Red" T="DOUBLE" default="0.5" value="0.1843598484992980957">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Green" T="DOUBLE" default="0.5" value="0.43529412150382995605">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Blue" T="DOUBLE" default="0.5" value="0.43529412150382995605">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Hue" T="DOUBLE" default="0" value="0.5">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Saturation" T="DOUBLE" default="0" value="0.57647058823529406801">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Brightness" T="DOUBLE" default="0.5" value="0.43529411764705883137">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Alpha" T="DOUBLE" default="1" value="1">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+					</Params>
+					<ColorPalette name="ColorPalette">
+						<Params name="Params">
+							<ParamChoice name="Colors" T="COLOR" default="4278190335" value="4278190080" storeChoices="1">
+								<Choice name="Black" value="4278190080" enabled="1" active="1" shortName=""/>
+								<Choice name="Red" value="4278190335" enabled="1" active="1" shortName=""/>
+								<Choice name="Green" value="4278255360" enabled="1" active="1" shortName=""/>
+								<Choice name="Yellow" value="4278255615" enabled="1" active="1" shortName=""/>
+								<Choice name="50 Grey" value="4286545791" enabled="1" active="1" shortName=""/>
+								<Choice name="Blue" value="4294901760" enabled="1" active="1" shortName=""/>
+								<Choice name="Magenta" value="4294902015" enabled="1" active="1" shortName=""/>
+								<Choice name="Cyan" value="4294967040" enabled="1" active="1" shortName=""/>
+								<Choice name="White" value="4294967295" enabled="1" active="1" shortName=""/>
+							</ParamChoice>
+						</Params>
+					</ColorPalette>
+				</ParamColor>
+				<ParamColor name="RGB Shift Y" T="COLOR" default="4286545791" value="4289382105" channelmode="0" paletteEnabled="0" color="4289382105" interpolated="0" key="376">
+					<Params name="Channels">
+						<ParamRange name="Red" T="DOUBLE" default="0.5" value="0.85294115543365478516">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Green" T="DOUBLE" default="0.5" value="0.77868509292602539062">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Blue" T="DOUBLE" default="0.5" value="0.66730099916458129883">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Hue" T="DOUBLE" default="0" value="0.10000000000000000555">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Saturation" T="DOUBLE" default="0" value="0.21764705882352941568">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Brightness" T="DOUBLE" default="0.5" value="0.85294117647058820264">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+						<ParamRange name="Alpha" T="DOUBLE" default="1" value="1">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+							<BehaviourDouble name="BehaviourDouble"/>
+							<ValueRange name="defaultRange" min="0" max="1"/>
+							<ValueRange name="minMax" min="0" max="1"/>
+							<ValueRange name="startStop" min="0" max="1"/>
+						</ParamRange>
+					</Params>
+					<ColorPalette name="ColorPalette">
+						<Params name="Params">
+							<ParamChoice name="Colors" T="COLOR" default="4278190335" value="4278190080" storeChoices="1">
+								<Choice name="Black" value="4278190080" enabled="1" active="1" shortName=""/>
+								<Choice name="Red" value="4278190335" enabled="1" active="1" shortName=""/>
+								<Choice name="Green" value="4278255360" enabled="1" active="1" shortName=""/>
+								<Choice name="Yellow" value="4278255615" enabled="1" active="1" shortName=""/>
+								<Choice name="50 Grey" value="4286545791" enabled="1" active="1" shortName=""/>
+								<Choice name="Blue" value="4294901760" enabled="1" active="1" shortName=""/>
+								<Choice name="Magenta" value="4294902015" enabled="1" active="1" shortName=""/>
+								<Choice name="Cyan" value="4294967040" enabled="1" active="1" shortName=""/>
+								<Choice name="White" value="4294967295" enabled="1" active="1" shortName=""/>
+							</ParamChoice>
+						</Params>
+					</ColorPalette>
+				</ParamColor>
+				<ParamRange name="RGB Shift" T="DOUBLE" default="0.78666698932647705078" value="0" key="362">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Shift Distance" T="DOUBLE" default="0" value="0" key="397">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="10"/>
+					<ValueRange name="minMax" min="0" max="10"/>
+					<ValueRange name="startStop" min="0" max="10"/>
+				</ParamRange>
+				<ParamRange name="Col Blur" T="DOUBLE" default="0.053332999348640441895" value="0.13529411764705881471" key="403">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="c.Blur Qual" T="DOUBLE" default="0.066666997969150543213" value="0.53529411764705880916" key="405">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="c.Blur Gaus" T="DOUBLE" default="1" value="1" key="406">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="c.Blur mxDist" T="DOUBLE" default="0.57333302497863769531" value="0.21764705882352941568" key="407">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Post Process" T="DOUBLE" default="0.21333299577236175537" value="0.90659340659340659219" key="520">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamText name="VERSION 1.5.4" T="STRING" default="trans rights" value="trans rights" key="455">
+					<Params name="Params">
+						<Param name="Lines" T="STRING" default="trans rights" value="trans rights"/>
+					</Params>
+				</ParamText>
+			</Params>
+			<AnimationSettings name="AnimationSettings" uniqueId="1746033903196">
+				<Setting name="Shift Distance" flags="8"/>
+				<Setting name="Brightness" flags="8"/>
+				<Setting name="Brightness" flags="8"/>
+			</AnimationSettings>
+			<View name="View"/>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" T="UINT64" default="67464115" value="67464115" storeChoices="0"/>
+			</Params>
+			<VideoMixerStateID uniqueId="1746033903303"/>
+			<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1746033898284" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+					<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+						<BehaviourDouble name="BehaviourDouble"/>
+						<ValueRange name="defaultRange" min="0" max="1"/>
+						<ValueRange name="minMax" min="0" max="1"/>
+						<ValueRange name="startStop" min="0" max="1"/>
+					</ParamRange>
+				</Params>
+				<AnimationSettings name="AnimationSettings" uniqueId="1746033905129"/>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+
