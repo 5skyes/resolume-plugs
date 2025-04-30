@@ -1,5 +1,5 @@
-# 5skyes-resolume-plugs
-A collection of plugins for the live events media server & mograph authoring tool Resolume, under the MIT License. Many are wire plugs, which should be editable. If we've uploaded a non-editable version (.cwired and not .wired), open an issue.
+# 5skyes Resolume Plugs
+A collection of plugins for the live events media server & mograph authoring tool [Resolume](https://resolume.com/), under the MIT License. Many are [Wire](https://resolume.com/software/wire) plugs, which should be editable. If we've uploaded a non-editable version (.cwired and not .wired), open an issue.
 
 
 ##INSTALATION:
