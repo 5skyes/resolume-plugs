@@ -629,6 +629,9 @@
 				},
 				{
 					"node": 185
+				},
+				{
+					"node": 199
 				}
 			]
 		},
@@ -644,11 +647,12 @@
 					"patch": 0
 				}
 			},
-			"description": "A simple three point recoloring plug with analagous color expansion. Takes three colors and maps them acoss the input's gamut using the stock colorizer, with the option to clip the brightest highlights and darkest shadows.",
-			"displayName": "5Skyes Recolor v5",
-			"identifier": "44e40575-a9eb-4db7-b966-5dec8d26d526",
+			"description": "A simple three point recoloring plug with analagous color expansion. Takes three colors and maps them acoss the input's gamut using the stock colorizer, with the option to clip the brightest highlights and darkest shadows.\n\nHigh bit depth reccomended for best effect.",
+			"displayName": "5Skyes Recolor",
+			"identifier": "f3f1a5ae-0ed4-4bb3-904c-d9726851f3b9",
+			"licenseFile": "C:\\Users\\Tess\\Documents\\LICENSE.txt",
 			"licenseName": "MIT",
-			"mail": "tesseraskye@gmail.com",
+			"mail": "",
 			"originalTarget": {
 				"branch": "",
 				"name": "Wire",
@@ -673,10 +677,10 @@
 				}
 			},
 			"thumbnail": "",
-			"url": "",
+			"url": "https:\/\/github.com\/5skyes",
 			"vendor": ""
 		},
-		"nextNodeId": 198,
+		"nextNodeId": 201,
 		"nodes": {
 			"1": {
 				"attributes": {
@@ -3918,7 +3922,7 @@
 					}
 				},
 				"bounds": {
-					"height": 57.95226669311523438,
+					"height": 58,
 					"width": 195,
 					"x": 1538.8231201171875,
 					"y": 1993.7554931640625
@@ -3958,7 +3962,7 @@
 					}
 				},
 				"bounds": {
-					"height": 57.95226669311523438,
+					"height": 58,
 					"width": 195,
 					"x": 1733.4552001953125,
 					"y": 1993.7554931640625
@@ -4046,7 +4050,7 @@
 					}
 				},
 				"bounds": {
-					"height": 154.174896240234375,
+					"height": 154,
 					"width": 195,
 					"x": 1500.5526123046875,
 					"y": 2105.286376953125
@@ -4228,7 +4232,7 @@
 					}
 				},
 				"bounds": {
-					"height": 154.174896240234375,
+					"height": 154,
 					"width": 195,
 					"x": 1499.677978515625,
 					"y": 2259.461181640625
@@ -4295,7 +4299,7 @@
 					}
 				},
 				"bounds": {
-					"height": 57.95226669311523438,
+					"height": 58,
 					"width": 195,
 					"x": 1928.4515380859375,
 					"y": 2145.369140625
@@ -4339,7 +4343,7 @@
 					}
 				},
 				"bounds": {
-					"height": 82.00792694091796875,
+					"height": 82,
 					"width": 195,
 					"x": 1928.0872802734375,
 					"y": 2219.00390625
@@ -4378,6 +4382,93 @@
 					"instances"
 				],
 				"name": "Pixelate",
+				"thumbnail_visible": true
+			},
+			"199": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"options-count": {
+						"type": "integer",
+						"value": 0
+					},
+					"widget": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 934.9617919921875,
+					"y": 2100.849365234375
+				},
+				"class": {
+					"id": "77697265-F29F-45E9-A833-21E09C750BA7",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "string",
+						"value": "So Many Colors !"
+					}
+				},
+				"hidden": [
+					"instances",
+					"flow",
+					"options-count",
+					"widget"
+				],
+				"name": "Version 5",
+				"thumbnail_visible": true
+			},
+			"200": {
+				"attributes": {
+					"alignment": {
+						"type": "integer",
+						"value": 0
+					},
+					"fill": {
+						"type": "bool",
+						"value": false
+					},
+					"font-size": {
+						"type": "float",
+						"value": 19
+					},
+					"text": {
+						"type": "string",
+						"value": "version number"
+					}
+				},
+				"bounds": {
+					"height": 169,
+					"width": 190,
+					"x": 904.9617919921875,
+					"y": 2043.849365234375
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [
+					"text",
+					"alignment",
+					"font-size",
+					"fill"
+				],
+				"name": "Group",
 				"thumbnail_visible": true
 			},
 			"24": {
@@ -5001,13 +5092,11 @@
 		},
 		"ui": {
 			"camera": {
-				"x": 490.2149658203125,
-				"y": 1149.6204833984375,
-				"zoom": 0.91454577445983887
+				"x": -510.07720947265625,
+				"y": 428.53369140625,
+				"zoom": 0.56772023439407349
 			},
-			"selection": [
-				"192"
-			]
+			"selection": []
 		}
 	},
 	"ui": {
@@ -5038,7 +5127,12 @@
 		"video": {
 			"routing": {
 				"out": {
-					"Display 1": null
+					"Display 1": null,
+					"Display 2": null,
+					"Display 3": null,
+					"Display 4": null,
+					"Spout": null,
+					"Syphon": null
 				}
 			}
 		}

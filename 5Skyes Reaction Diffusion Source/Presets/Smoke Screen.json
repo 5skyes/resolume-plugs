@@ -1,0 +1,92 @@
+{
+	"meta": {
+		"deploymentTarget": {
+			"branch": "",
+			"name": "Wire",
+			"version": {
+				"major": 7,
+				"minor": 22,
+				"patch": 3
+			}
+		},
+		"saveTarget": {
+			"branch": "",
+			"name": "Wire",
+			"version": {
+				"major": 7,
+				"minor": 22,
+				"patch": 3
+			}
+		}
+	},
+	"preset": {
+		"Smoke Screen": {
+			"101": {
+				"type": "float",
+				"value": 0
+			},
+			"103": {
+				"type": "color",
+				"value": [
+					0.4699999988079071,
+					0.49650001525878906,
+					0.5,
+					1
+				]
+			},
+			"107": {
+				"type": "color",
+				"value": [
+					0.49979999661445618,
+					0.50999999046325684,
+					0.50405001640319824,
+					1
+				]
+			},
+			"120": {
+				"type": "bool",
+				"value": true
+			},
+			"176": {
+				"type": "float",
+				"value": 0.57471299171447754
+			},
+			"39": {
+				"type": "float",
+				"value": 0.66666698455810547
+			},
+			"61": {
+				"type": "float",
+				"value": 0
+			},
+			"62": {
+				"type": "float",
+				"value": 0
+			},
+			"70": {
+				"type": "float",
+				"value": 22.98850631713867188
+			},
+			"76": {
+				"type": "float",
+				"value": 0.32183900475502014
+			},
+			"84": {
+				"type": "integer",
+				"value": 2
+			},
+			"85": {
+				"type": "float",
+				"value": 0.35632199048995972
+			},
+			"90": {
+				"type": "integer",
+				"value": 0
+			},
+			"95": {
+				"type": "float",
+				"value": 0
+			}
+		}
+	}
+}

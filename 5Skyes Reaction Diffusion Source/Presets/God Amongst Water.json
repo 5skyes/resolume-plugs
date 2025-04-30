@@ -1,0 +1,92 @@
+{
+	"meta": {
+		"deploymentTarget": {
+			"branch": "",
+			"name": "Wire",
+			"version": {
+				"major": 7,
+				"minor": 22,
+				"patch": 3
+			}
+		},
+		"saveTarget": {
+			"branch": "",
+			"name": "Wire",
+			"version": {
+				"major": 7,
+				"minor": 22,
+				"patch": 3
+			}
+		}
+	},
+	"preset": {
+		"God Amongst Water": {
+			"101": {
+				"type": "float",
+				"value": 0
+			},
+			"103": {
+				"type": "color",
+				"value": [
+					0.5,
+					0.5,
+					0.5,
+					1
+				]
+			},
+			"107": {
+				"type": "color",
+				"value": [
+					0.14850001037120819,
+					0.14890001714229584,
+					0.15000000596046448,
+					1
+				]
+			},
+			"120": {
+				"type": "bool",
+				"value": false
+			},
+			"176": {
+				"type": "float",
+				"value": 3.79310297966003418
+			},
+			"39": {
+				"type": "float",
+				"value": 0.95402300357818604
+			},
+			"61": {
+				"type": "float",
+				"value": 0
+			},
+			"62": {
+				"type": "float",
+				"value": 0.14942499995231628
+			},
+			"70": {
+				"type": "float",
+				"value": 6.89655208587646484
+			},
+			"76": {
+				"type": "float",
+				"value": 0.44827601313591003
+			},
+			"84": {
+				"type": "integer",
+				"value": 1
+			},
+			"85": {
+				"type": "float",
+				"value": 0.32183900475502014
+			},
+			"90": {
+				"type": "integer",
+				"value": 0
+			},
+			"95": {
+				"type": "float",
+				"value": 0
+			}
+		}
+	}
+}
