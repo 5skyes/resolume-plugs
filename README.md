@@ -13,10 +13,10 @@ Don't have a test case for this one, but it should be pretty similar.. check you
 
 ## PLUGS:
 
-- Destroy Alpha (v2) [Effect] : A no-frills one-click solution for zeroing out the alpha channel. Might have funny results with straight alpha.
+- [Effect] Destroy Alpha (v2)        : A no-frills one-click solution for zeroing out the alpha channel. Might have funny results with straight alpha.
 
-- Reaction Diffusion (v1.4) [Effect] : A versitile, feature-rich (read:heavy) effect implementing a reaction-diffusion inspired feedback system. Having more than a couple concurent instances makes our 3090 chug. Use with caution. Some settings (thresholds especially) can easily black the output. 
+- [Effect] Reaction Diffusion (v1.4) : A versitile, feature-rich (read:heavy) effect implementing a reaction-diffusion inspired feedback system. Having more than a couple concurent instances makes our 3090 chug. Use with caution. Some settings (thresholds especially) can easily black the output. 
 
-- Reaction Diffusion (v1.4) [Source] : A versitile, feature-rich (read:heavy) generator implementing a reaction-diffusion inspired feedback system. This is essentially the effect on top of a light weight perlin noise generator. Having more than a couple concurent instances makes our 3090 chug. Use with caution. Some settings (thresholds especially) can easily black the output. 
+- [Source] Reaction Diffusion (v1.4) : A versitile, feature-rich (read:heavy) generator implementing a reaction-diffusion inspired feedback system. This is essentially the effect on top of a light weight perlin noise generator. Having more than a couple concurent instances makes our 3090 chug. Use with caution. Some settings (thresholds especially) can easily black the output. 
 
-- R3color (v5) [Effect] : A lightweight recolor effect that gamut maps three colors onto the incoming video stream. Includes a phasor, gamut warping, hue expansion, gamut clipping, and step smoothing.
+- [Effect] R3color (v5)              : A lightweight recolor effect that gamut maps three colors onto the incoming video stream. Includes a phasor, gamut warping, hue expansion, gamut clipping, and step smoothing.
