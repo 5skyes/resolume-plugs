@@ -19,4 +19,4 @@ Don't have a test case for this one, but it should be pretty similar.. check you
 
 - Reaction Diffusion (v1.4) [Source] : A versitile, feature-rich (read:heavy) generator implementing a reaction-diffusion inspired feedback system. This is essentially the effect on top of a light weight perlin noise generator. Having more than a couple concurent instances makes our 3090 chug. Use with caution. Some settings (thresholds especially) can easily black the output. 
 
-- (th)Recolor (v5) [Effect] : A lightweight recolor effect that gamut maps three colors onto the incoming video stream. Includes a phasor, gamut warping, hue expansion, gamut clipping, and step smoothing.
+- R3color (v5) [Effect] : A lightweight recolor effect that gamut maps three colors onto the incoming video stream. Includes a phasor, gamut warping, hue expansion, gamut clipping, and step smoothing.
