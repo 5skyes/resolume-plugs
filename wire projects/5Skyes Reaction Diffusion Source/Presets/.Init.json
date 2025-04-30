@@ -6,7 +6,7 @@
 			"version": {
 				"major": 7,
 				"minor": 22,
-				"patch": 3
+				"patch": 7
 			}
 		},
 		"saveTarget": {
@@ -15,12 +15,12 @@
 			"version": {
 				"major": 7,
 				"minor": 22,
-				"patch": 3
+				"patch": 7
 			}
 		}
 	},
 	"preset": {
-		".Init": {
+		".init": {
 			"101": {
 				"type": "float",
 				"value": 0
@@ -43,33 +43,93 @@
 					1
 				]
 			},
-			"120": {
-				"type": "bool",
-				"value": false
-			},
 			"176": {
 				"type": "float",
 				"value": 0
 			},
 			"219": {
 				"type": "float",
-				"value": 0
+				"value": 0.65333300828933716
 			},
 			"221": {
 				"type": "float",
-				"value": 0
+				"value": 0.60000002384185791
 			},
 			"222": {
 				"type": "float",
-				"value": 0
+				"value": 1
 			},
 			"223": {
 				"type": "float",
-				"value": 0
+				"value": 0.34666699171066284
+			},
+			"307": {
+				"type": "integer",
+				"value": 3
+			},
+			"308": {
+				"type": "float",
+				"value": 1.10000002384185791
+			},
+			"309": {
+				"type": "float",
+				"value": 1.16666698455810547
+			},
+			"310": {
+				"type": "integer",
+				"value": 2
+			},
+			"322": {
+				"type": "string",
+				"value": "trans rights"
 			},
 			"39": {
 				"type": "float",
-				"value": 0.58536601066589355
+				"value": 0.81333297491073608
+			},
+			"392": {
+				"type": "integer",
+				"value": 7
+			},
+			"393": {
+				"type": "float",
+				"value": 0.60000002384185791
+			},
+			"398": {
+				"type": "float",
+				"value": 0.49333301186561584
+			},
+			"399": {
+				"type": "float",
+				"value": 0.62666702270507812
+			},
+			"400": {
+				"type": "bool",
+				"value": false
+			},
+			"403": {
+				"type": "float",
+				"value": 0.58666700124740601
+			},
+			"404": {
+				"type": "float",
+				"value": 0.25333300232887268
+			},
+			"405": {
+				"type": "bool",
+				"value": true
+			},
+			"432": {
+				"type": "float",
+				"value": 0.09333299845457077
+			},
+			"441": {
+				"type": "float",
+				"value": 0.33333298563957214
+			},
+			"459": {
+				"type": "float",
+				"value": 0.54666697978973389
 			},
 			"61": {
 				"type": "float",
@@ -81,15 +141,15 @@
 			},
 			"70": {
 				"type": "float",
-				"value": 20.32520294189453125
+				"value": 17.33333206176757812
 			},
 			"76": {
 				"type": "float",
-				"value": 0
+				"value": 1
 			},
 			"90": {
 				"type": "integer",
-				"value": 0
+				"value": 7
 			},
 			"95": {
 				"type": "float",

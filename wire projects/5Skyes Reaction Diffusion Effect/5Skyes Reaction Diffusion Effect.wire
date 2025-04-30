@@ -348,16 +348,6 @@
 			},
 			{
 				"from": [
-					386,
-					"output"
-				],
-				"to": [
-					387,
-					"opacity2"
-				]
-			},
-			{
-				"from": [
 					390,
 					"output"
 				],
@@ -524,16 +514,6 @@
 				"to": [
 					404,
 					"input1"
-				]
-			},
-			{
-				"from": [
-					404,
-					"output"
-				],
-				"to": [
-					402,
-					"distance"
 				]
 			},
 			{
@@ -1415,6 +1395,26 @@
 					504,
 					"input0"
 				]
+			},
+			{
+				"from": [
+					404,
+					"output"
+				],
+				"to": [
+					402,
+					"distance"
+				]
+			},
+			{
+				"from": [
+					520,
+					"output"
+				],
+				"to": [
+					387,
+					"opacity2"
+				]
 			}
 		],
 		"inputOrder": {
@@ -1450,7 +1450,7 @@
 						405,
 						406,
 						407,
-						386
+						520
 					],
 					"collapsed": false,
 					"name": "Color"
@@ -1536,7 +1536,7 @@
 			"url": "https:\/\/github.com\/5skyes",
 			"vendor": ""
 		},
-		"nextNodeId": 520,
+		"nextNodeId": 521,
 		"nodes": {
 			"183": {
 				"attributes": {
@@ -1981,7 +1981,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.61585402488708496
+						"value": 0.93333297967910767
 					}
 				},
 				"hidden": [
@@ -2286,7 +2286,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": -0.01333300024271011
 					}
 				},
 				"hidden": [
@@ -2544,7 +2544,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 15.24390220642089844
+						"value": 9.33333301544189453
 					}
 				},
 				"hidden": [
@@ -2677,7 +2677,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.78666698932647705
 					}
 				},
 				"hidden": [
@@ -4207,47 +4207,6 @@
 				"name": "Subtract",
 				"thumbnail_visible": true
 			},
-			"386": {
-				"attributes": {
-					"bool-view": {
-						"type": "integer",
-						"value": 0
-					},
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"instances": {
-						"type": "integer",
-						"value": 1
-					}
-				},
-				"bounds": {
-					"height": 82,
-					"width": 130,
-					"x": 7525.56640625,
-					"y": 646.34259033203125
-				},
-				"class": {
-					"id": "77697265-999C-4F8B-8B9D-3646DC68AA69",
-					"version": 2
-				},
-				"clock": "video",
-				"color": "ffae7bff",
-				"constants": {
-					"input": {
-						"type": "bool",
-						"value": false
-					}
-				},
-				"hidden": [
-					"instances",
-					"flow",
-					"bool-view"
-				],
-				"name": "Post Process",
-				"thumbnail_visible": true
-			},
 			"387": {
 				"attributes": {
 					"bitdepth": {
@@ -4316,7 +4275,7 @@
 					},
 					"opacity2": {
 						"type": "float",
-						"value": 0.59375
+						"value": 0
 					}
 				},
 				"hidden": [
@@ -5340,7 +5299,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.05333299934864044
 					}
 				},
 				"hidden": [
@@ -5451,7 +5410,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.06666699796915054
 					}
 				},
 				"hidden": [
@@ -5522,7 +5481,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 1
 					}
 				},
 				"hidden": [
@@ -5593,7 +5552,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.5733330249786377
 					}
 				},
 				"hidden": [
@@ -7170,7 +7129,7 @@
 					"options-count",
 					"widget"
 				],
-				"name": "VERSION 1.5. 3",
+				"name": "VERSION 1.5.4",
 				"thumbnail_visible": true
 			},
 			"456": {
@@ -7356,7 +7315,7 @@
 				"constants": {
 					"input": {
 						"type": "integer",
-						"value": 7
+						"value": 4
 					}
 				},
 				"hidden": [
@@ -7427,7 +7386,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.45679000020027161
+						"value": 0.34567898511886597
 					}
 				},
 				"hidden": [
@@ -7712,7 +7671,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.50617301464080811
+						"value": 0.76543200016021729
 					}
 				},
 				"hidden": [
@@ -7783,7 +7742,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.14814800024032593
 					}
 				},
 				"hidden": [
@@ -8016,7 +7975,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.65432101488113403
+						"value": 0.43209901452064514
 					}
 				},
 				"hidden": [
@@ -8087,7 +8046,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.40000000596046448
 					}
 				},
 				"hidden": [
@@ -8134,7 +8093,7 @@
 				"constants": {
 					"input": {
 						"type": "bool",
-						"value": true
+						"value": false
 					}
 				},
 				"hidden": [
@@ -9418,7 +9377,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.20987699925899506
+						"value": 0
 					}
 				},
 				"hidden": [
@@ -10038,7 +9997,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.21333299577236176
 					}
 				},
 				"hidden": [
@@ -10590,13 +10549,84 @@
 				],
 				"name": "Group",
 				"thumbnail_visible": true
+			},
+			"520": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"max": {
+						"type": "float",
+						"value": 1
+					},
+					"min": {
+						"type": "float",
+						"value": 0
+					},
+					"options-count": {
+						"type": "integer",
+						"value": 0
+					},
+					"unit": {
+						"type": "integer",
+						"value": 0
+					},
+					"widget": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 7525.97509765625,
+					"y": 650.685302734375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffae7bff",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.21333299577236176
+					}
+				},
+				"hidden": [
+					"instances",
+					"flow",
+					"has-min",
+					"min",
+					"has-max",
+					"max",
+					"options-count",
+					"widget",
+					"unit"
+				],
+				"name": "Post Process",
+				"thumbnail_visible": true
 			}
 		},
 		"ui": {
 			"camera": {
-				"x": 3052.982177734375,
-				"y": -2142.46875,
-				"zoom": 0.256590336561203
+				"x": 3940.732666015625,
+				"y": -131.6596527099609375,
+				"zoom": 0.85726773738861084
 			},
 			"selection": []
 		}

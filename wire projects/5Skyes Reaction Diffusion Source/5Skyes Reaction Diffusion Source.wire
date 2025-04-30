@@ -348,16 +348,6 @@
 			},
 			{
 				"from": [
-					120,
-					"output"
-				],
-				"to": [
-					122,
-					"opacity2"
-				]
-			},
-			{
-				"from": [
 					155,
 					"output"
 				],
@@ -1525,6 +1515,16 @@
 					455,
 					"channels"
 				]
+			},
+			{
+				"from": [
+					459,
+					"output"
+				],
+				"to": [
+					122,
+					"opacity2"
+				]
 			}
 		],
 		"inputOrder": {
@@ -1559,7 +1559,7 @@
 						221,
 						222,
 						223,
-						120
+						459
 					],
 					"collapsed": false,
 					"name": "Color"
@@ -1680,7 +1680,7 @@
 			"url": "https:\/\/github.com\/5skyes",
 			"vendor": ""
 		},
-		"nextNodeId": 459,
+		"nextNodeId": 460,
 		"nodes": {
 			"101": {
 				"attributes": {
@@ -2576,47 +2576,6 @@
 					"input1-dimensions"
 				],
 				"name": "Subtract",
-				"thumbnail_visible": true
-			},
-			"120": {
-				"attributes": {
-					"bool-view": {
-						"type": "integer",
-						"value": 0
-					},
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"instances": {
-						"type": "integer",
-						"value": 1
-					}
-				},
-				"bounds": {
-					"height": 82,
-					"width": 130,
-					"x": 5804.03076171875,
-					"y": 522.71551513671875
-				},
-				"class": {
-					"id": "77697265-999C-4F8B-8B9D-3646DC68AA69",
-					"version": 2
-				},
-				"clock": "video",
-				"color": "ffae7bff",
-				"constants": {
-					"input": {
-						"type": "bool",
-						"value": false
-					}
-				},
-				"hidden": [
-					"instances",
-					"flow",
-					"bool-view"
-				],
-				"name": "Post Process",
 				"thumbnail_visible": true
 			},
 			"122": {
@@ -3751,7 +3710,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.65333300828933716
 					}
 				},
 				"hidden": [
@@ -3862,7 +3821,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.60000002384185791
 					}
 				},
 				"hidden": [
@@ -3933,7 +3892,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 1
 					}
 				},
 				"hidden": [
@@ -4004,7 +3963,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.34666699171066284
 					}
 				},
 				"hidden": [
@@ -5775,7 +5734,7 @@
 				"constants": {
 					"input": {
 						"type": "integer",
-						"value": 1
+						"value": 3
 					}
 				},
 				"hidden": [
@@ -5846,7 +5805,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.65548801422119141
+						"value": 1.10000002384185791
 					}
 				},
 				"hidden": [
@@ -5917,7 +5876,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.96036601066589355
+						"value": 1.16666698455810547
 					}
 				},
 				"hidden": [
@@ -6012,7 +5971,7 @@
 				"constants": {
 					"input": {
 						"type": "integer",
-						"value": 0
+						"value": 2
 					}
 				},
 				"hidden": [
@@ -6242,7 +6201,7 @@
 					"options-count",
 					"widget"
 				],
-				"name": "VERSION 1.5.3",
+				"name": "VERSION 1.5.4",
 				"thumbnail_visible": true
 			},
 			"34": {
@@ -6478,7 +6437,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.61585402488708496
+						"value": 0.81333297491073608
 					}
 				},
 				"hidden": [
@@ -6749,7 +6708,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.45679000020027161
+						"value": 0.60000002384185791
 					}
 				},
 				"hidden": [
@@ -7034,7 +6993,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.50617301464080811
+						"value": 0.49333301186561584
 					}
 				},
 				"hidden": [
@@ -7105,7 +7064,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.62666702270507812
 					}
 				},
 				"hidden": [
@@ -7338,7 +7297,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.65432101488113403
+						"value": 0.58666700124740601
 					}
 				},
 				"hidden": [
@@ -7409,7 +7368,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.25333300232887268
 					}
 				},
 				"hidden": [
@@ -8457,7 +8416,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.09333299845457077
 					}
 				},
 				"hidden": [
@@ -9077,7 +9036,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.33333298563957214
 					}
 				},
 				"hidden": [
@@ -9954,6 +9913,77 @@
 				"name": "Sine Oscillator",
 				"thumbnail_visible": true
 			},
+			"459": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"max": {
+						"type": "float",
+						"value": 1
+					},
+					"min": {
+						"type": "float",
+						"value": 0
+					},
+					"options-count": {
+						"type": "integer",
+						"value": 0
+					},
+					"unit": {
+						"type": "integer",
+						"value": 0
+					},
+					"widget": {
+						"type": "integer",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 5803.22119140625,
+					"y": 527.57244873046875
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 3
+				},
+				"clock": "video",
+				"color": "ffae7bff",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.54666697978973389
+					}
+				},
+				"hidden": [
+					"instances",
+					"flow",
+					"has-min",
+					"min",
+					"has-max",
+					"max",
+					"options-count",
+					"widget",
+					"unit"
+				],
+				"name": "Post Process",
+				"thumbnail_visible": true
+			},
 			"50": {
 				"attributes": {
 					"instances": {
@@ -10593,7 +10623,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 15.24390220642089844
+						"value": 17.33333206176757812
 					}
 				},
 				"hidden": [
@@ -10726,7 +10756,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 1
 					}
 				},
 				"hidden": [
@@ -11116,7 +11146,7 @@
 				"constants": {
 					"input": {
 						"type": "integer",
-						"value": 0
+						"value": 7
 					}
 				},
 				"hidden": [
@@ -11363,9 +11393,9 @@
 		},
 		"ui": {
 			"camera": {
-				"x": -3920.276123046875,
-				"y": -4320.6875,
-				"zoom": 0.1364942193031311
+				"x": 235.08062744140625,
+				"y": 93.38655853271484375,
+				"zoom": 0.68173563480377197
 			},
 			"selection": []
 		}
