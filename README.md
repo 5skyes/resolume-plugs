@@ -5,7 +5,8 @@ A collection of plugins for the live events media server & mograph authoring too
 ##INSTALATION:
 
 [WINDOWS]
-To install these with presets, drop the folder for the effect you want in C:\Users\<USER>\Documents\Resolume Wire\Patches and Arena should automagically see them. If you don't have wire (can't test :((( ) you might need to install the compiled version instead. Drop the contents of the `1_compiled` folder onto Resolume one by one to install these.
+To install these as wire projects with presets, grab the folder for the effect you want from the `wire projects` directory and drop it in `C:\Users\<USER>\Documents\Resolume Wire\Patches` and Arena should automagically see them. 
+If you don't have wire (can't test :((( ) you might need to install the compiled version instead. Drop the contents of the `precompiled plugs` folder onto Resolume one by one to install these.
 
 [MAC]
 Don't have a test case for this one, but it should be pretty similar.. check your documents folder.
