@@ -648,7 +648,7 @@
 				}
 			},
 			"description": "A simple three point recoloring plug with analagous color expansion. Takes three colors and maps them acoss the input's gamut using the stock colorizer, with the option to clip the brightest highlights and darkest shadows.\n\nHigh bit depth reccomended for best effect.",
-			"displayName": "5Skyes Recolor",
+			"displayName": "5Skyes R3color",
 			"identifier": "f3f1a5ae-0ed4-4bb3-904c-d9726851f3b9",
 			"licenseFile": "C:\\Users\\Tess\\Documents\\LICENSE.txt",
 			"licenseName": "MIT",
@@ -4159,7 +4159,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.5
+						"value": 0.22222200036048889
 					}
 				},
 				"hidden": [
@@ -4427,7 +4427,7 @@
 					"options-count",
 					"widget"
 				],
-				"name": "Version 5",
+				"name": "Version 5.1",
 				"thumbnail_visible": true
 			},
 			"200": {
@@ -5092,9 +5092,9 @@
 		},
 		"ui": {
 			"camera": {
-				"x": -510.07720947265625,
-				"y": 428.53369140625,
-				"zoom": 0.56772023439407349
+				"x": 427.186859130859375,
+				"y": 887.2911376953125,
+				"zoom": 0.71723061800003052
 			},
 			"selection": []
 		}
