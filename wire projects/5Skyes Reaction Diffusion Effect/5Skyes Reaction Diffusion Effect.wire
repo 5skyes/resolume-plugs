@@ -58,16 +58,6 @@
 			},
 			{
 				"from": [
-					367,
-					"output"
-				],
-				"to": [
-					350,
-					"radius"
-				]
-			},
-			{
-				"from": [
 					368,
 					"output"
 				],
@@ -364,16 +354,6 @@
 				"to": [
 					351,
 					"distance"
-				]
-			},
-			{
-				"from": [
-					350,
-					"output"
-				],
-				"to": [
-					351,
-					"input"
 				]
 			},
 			{
@@ -948,16 +928,6 @@
 			},
 			{
 				"from": [
-					468,
-					"output"
-				],
-				"to": [
-					482,
-					"input0"
-				]
-			},
-			{
-				"from": [
 					491,
 					"output"
 				],
@@ -1415,6 +1385,36 @@
 					387,
 					"opacity2"
 				]
+			},
+			{
+				"from": [
+					350,
+					"output"
+				],
+				"to": [
+					351,
+					"input"
+				]
+			},
+			{
+				"from": [
+					367,
+					"output"
+				],
+				"to": [
+					350,
+					"radius"
+				]
+			},
+			{
+				"from": [
+					468,
+					"output"
+				],
+				"to": [
+					482,
+					"input0"
+				]
 			}
 		],
 		"inputOrder": {
@@ -1536,7 +1536,7 @@
 			"url": "https:\/\/github.com\/5skyes",
 			"vendor": ""
 		},
-		"nextNodeId": 521,
+		"nextNodeId": 526,
 		"nodes": {
 			"183": {
 				"attributes": {
@@ -8093,7 +8093,7 @@
 				"constants": {
 					"input": {
 						"type": "bool",
-						"value": false
+						"value": true
 					}
 				},
 				"hidden": [
@@ -10624,9 +10624,9 @@
 		},
 		"ui": {
 			"camera": {
-				"x": -1441.005859375,
-				"y": -3856.794189453125,
-				"zoom": 0.14679285883903503
+				"x": 4993.2275390625,
+				"y": -209.139678955078125,
+				"zoom": 0.80170047283172607
 			},
 			"selection": []
 		}
