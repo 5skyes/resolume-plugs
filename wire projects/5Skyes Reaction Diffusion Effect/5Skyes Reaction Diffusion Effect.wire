@@ -1225,7 +1225,8 @@
 						70,
 						90,
 						85,
-						84
+						84,
+						312
 					],
 					"collapsed": false,
 					"name": "Core"
@@ -1294,9 +1295,6 @@
 				},
 				{
 					"node": 183
-				},
-				{
-					"node": 312
 				},
 				{
 					"node": 329
@@ -2276,7 +2274,7 @@
 				"constants": {
 					"input": {
 						"type": "bool",
-						"value": false
+						"value": true
 					}
 				},
 				"hidden": [
@@ -3111,7 +3109,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 1.97530901432037354
 					}
 				},
 				"hidden": [
@@ -3614,7 +3612,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.71212100982666016
+						"value": 0.50617301464080811
 					}
 				},
 				"hidden": [
@@ -3938,7 +3936,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.08641999959945679
 					}
 				},
 				"hidden": [
@@ -4120,7 +4118,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 1
 					}
 				},
 				"hidden": [
@@ -4191,7 +4189,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.25925898551940918
 					}
 				},
 				"hidden": [
@@ -4383,7 +4381,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.5
+						"value": 0.65432101488113403
 					}
 				},
 				"hidden": [
@@ -4501,7 +4499,7 @@
 				"constants": {
 					"input": {
 						"type": "bool",
-						"value": false
+						"value": true
 					}
 				},
 				"hidden": [
@@ -7398,7 +7396,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.84146302938461304
+						"value": 0.45679000020027161
 					}
 				},
 				"hidden": [
@@ -7735,7 +7733,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.58536601066589355
+						"value": 0.7777780294418335
 					}
 				},
 				"hidden": [
@@ -8169,7 +8167,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": -0.03703700006008148
 					}
 				},
 				"hidden": [
@@ -8240,7 +8238,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": -0.11111100018024445
 					}
 				},
 				"hidden": [
@@ -8521,7 +8519,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 20.32520294189453125
+						"value": 33.33333206176757812
 					}
 				},
 				"hidden": [
@@ -8654,7 +8652,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0
+						"value": 0.23456799983978271
 					}
 				},
 				"hidden": [
@@ -9115,7 +9113,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.3089430034160614
+						"value": 0.45679000020027161
 					}
 				},
 				"hidden": [
@@ -9186,7 +9184,7 @@
 				"constants": {
 					"input": {
 						"type": "integer",
-						"value": 0
+						"value": 2
 					}
 				},
 				"hidden": [
@@ -9433,9 +9431,9 @@
 		},
 		"ui": {
 			"camera": {
-				"x": 260.343414306640625,
-				"y": -381.0543212890625,
-				"zoom": 0.52658450603485107
+				"x": -903.6419677734375,
+				"y": -2127.333984375,
+				"zoom": 0.28172698616981506
 			},
 			"selection": []
 		}

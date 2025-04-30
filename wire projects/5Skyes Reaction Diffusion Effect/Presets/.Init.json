@@ -45,11 +45,11 @@
 			},
 			"120": {
 				"type": "bool",
-				"value": false
+				"value": true
 			},
 			"176": {
 				"type": "float",
-				"value": 0
+				"value": 1.97530901432037354
 			},
 			"183": {
 				"type": "string",
@@ -57,11 +57,11 @@
 			},
 			"189": {
 				"type": "float",
-				"value": 1
+				"value": 0.50617301464080811
 			},
 			"190": {
 				"type": "float",
-				"value": 0.17886200547218323
+				"value": 0
 			},
 			"192": {
 				"type": "bool",
@@ -69,7 +69,7 @@
 			},
 			"219": {
 				"type": "float",
-				"value": 0
+				"value": 0.08641999959945679
 			},
 			"221": {
 				"type": "float",
@@ -77,43 +77,51 @@
 			},
 			"222": {
 				"type": "float",
-				"value": 0
+				"value": 1
 			},
 			"223": {
 				"type": "float",
-				"value": 0
+				"value": 0.25925898551940918
 			},
 			"227": {
 				"type": "float",
-				"value": 1
+				"value": 0.65432101488113403
 			},
 			"228": {
 				"type": "float",
-				"value": 0.17886200547218323
+				"value": 0
 			},
 			"229": {
 				"type": "bool",
-				"value": false
+				"value": true
+			},
+			"312": {
+				"type": "float",
+				"value": 0.45679000020027161
+			},
+			"329": {
+				"type": "string",
+				"value": "Wow!"
 			},
 			"39": {
 				"type": "float",
-				"value": 0.58536601066589355
+				"value": 0.7777780294418335
 			},
 			"61": {
 				"type": "float",
-				"value": 0
+				"value": -0.03703700006008148
 			},
 			"62": {
 				"type": "float",
-				"value": 0
+				"value": -0.11111100018024445
 			},
 			"70": {
 				"type": "float",
-				"value": 20.32520294189453125
+				"value": 33.33333206176757812
 			},
 			"76": {
 				"type": "float",
-				"value": 0
+				"value": 0.23456799983978271
 			},
 			"84": {
 				"type": "integer",
@@ -121,11 +129,11 @@
 			},
 			"85": {
 				"type": "float",
-				"value": 0.3089430034160614
+				"value": 0.45679000020027161
 			},
 			"90": {
 				"type": "integer",
-				"value": 0
+				"value": 2
 			},
 			"95": {
 				"type": "float",
